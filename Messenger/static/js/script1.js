@@ -1,11 +1,3 @@
-
-
-/*document.querySelectorAll('.conversation-form-input').forEach(function(item) {
-    item.addEventListener('input', function() {
-        this.rows = this.value.split('\n').length
-    })
-})*/
-
 document.querySelectorAll('[data-conversation]').forEach(function(item) {
     item.addEventListener('click', function(e) {
         e.preventDefault()
